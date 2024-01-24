@@ -24,11 +24,6 @@ body{
 main{
     height: 100vh;
     position: relative;
-
-    display: grid;
-    grid-template-columns: 13fr;
-    grid-gap: 10px;
-    
     
 }
 
@@ -47,8 +42,6 @@ section#telefone{
     background-size: 80%;
     background-position: center;
     
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
 }
 
 iframe#tela{
@@ -68,9 +61,6 @@ section#redes-sociais{
     display: flex;
     flex-direction: column;
     padding: 10px;
-
-    grid-column: 2 / 3;
-    grid-row: 1 / 2;
 
 }
 
