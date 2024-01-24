@@ -94,3 +94,8 @@ section#redes-sociais img:hover{
 
 
 
+@media (max-width: 480px) {
+    section#telefone {
+      background-size: 60%;
+    }
+  }
